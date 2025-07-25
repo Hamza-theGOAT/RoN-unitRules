@@ -44,6 +44,46 @@ def toExcel(pathz: dict, df: pd.DataFrame):
     formatWB(wbN, wbN)
 
 
+def updateRules(pathz: dict):
+    # DataFrame for updated unit specs
+    df = pd.read_excel(pathz['wbNout'], sheet_name='Upd')
+    df.columns = df.columns.str.strip()
+    df['NAME'] = df['NAME'].astype(str).str.strip()
+
+    # Reset the updated unitrules.xml instance
+    shutil.copy2(pathz['unitRules'], pathz['updStats'])
+
+    # Get XML root
+    tree = ET.parse(pathz['updStats'])
+    root = tree.getroot()
+
+    # Iterate over each row (each unit)
+    for _, row in df.iterrows():
+        unitName = row['NAME']
+
+        for unit in root.findall('UNIT'):
+            nameTag = unit.find('NAME')
+            if nameTag is not None and nameTag.text.strip() == unitName:
+                print(f"\nUpdating unit: {unitName}")
+                for col in df.columns:
+                    if col == 'NAME':
+                        continue
+                    if pd.notna(row[col]):
+                        fieldTag = unit.find(col)
+                        if fieldTag is not None:
+                            print(f" - {col}: {fieldTag.text} → {row[col]}")
+                            fieldTag.text = str(row[col])
+                        else:
+                            print(
+                                f" - Field <{col}> not found in XML for {unitName}")
+                break
+        else:
+            print(f"Unit <{unitName}> not found in XML")
+
+    # Save updated XML
+    tree.write(pathz['updStats'], encoding='utf-8', xml_declaration=True)
+
+
 def getPathz():
     # Project directories
     sdir = 'source_dir'
@@ -81,6 +121,9 @@ def main():
 
     # Save data to excel
     toExcel(pathz, unitSpecs)
+
+    # Update unitrules.xml file in working_dir
+    updateRules(pathz)
 
 
 if __name__ == '__main__':
