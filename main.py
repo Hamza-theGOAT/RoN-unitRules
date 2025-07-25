@@ -1,8 +1,10 @@
 import xml.etree.ElementTree as ET
 import pandas as pd
+from openpyxl import load_workbook
 import os
 import shutil
 from dotenv import load_dotenv
+from formatz import formatWB
 
 
 def unitData(xml):
@@ -27,6 +29,19 @@ def unitData(xml):
             unitSpecs.append(unitSpec)
 
     return pd.DataFrame(unitSpecs)
+
+
+def toExcel(pathz: dict, df: pd.DataFrame):
+    wbN = pathz['wbNin']
+    with pd.ExcelWriter(wbN) as xlwriter:
+        df.to_excel(xlwriter, sheet_name='Main', index=False)
+        domains = df['DOMAINS'].unique()
+        for domain in domains:
+            domDF = df[df['DOMAINS'] == domain].copy()
+            sh = f'{domain}_Units'
+            domDF.to_excel(xlwriter, sheet_name=sh, index=False)
+
+    formatWB(wbN, wbN)
 
 
 def getPathz():
