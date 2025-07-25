@@ -35,9 +35,9 @@ def toExcel(pathz: dict, df: pd.DataFrame):
     wbN = pathz['wbNin']
     with pd.ExcelWriter(wbN) as xlwriter:
         df.to_excel(xlwriter, sheet_name='Main', index=False)
-        domains = df['DOMAINS'].unique()
+        domains = df['DOMAIN'].unique()
         for domain in domains:
-            domDF = df[df['DOMAINS'] == domain].copy()
+            domDF = df[df['DOMAIN'] == domain].copy()
             sh = f'{domain}_Units'
             domDF.to_excel(xlwriter, sheet_name=sh, index=False)
 
@@ -78,6 +78,9 @@ def main():
 
     # Get unit specs as pd.DataFrame after parsing xml data
     unitSpecs = unitData(pathz['unitRules'])
+
+    # Save data to excel
+    toExcel(pathz, unitSpecs)
 
 
 if __name__ == '__main__':
