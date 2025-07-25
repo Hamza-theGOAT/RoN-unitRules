@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 import os
 import shutil
+from dotenv import load_dotenv
 
 
 def unitData(xml):
@@ -26,3 +27,43 @@ def unitData(xml):
             unitSpecs.append(unitSpec)
 
     return pd.DataFrame(unitSpecs)
+
+
+def getPathz():
+    # Project directories
+    sdir = 'source_dir'
+    wdir = 'working_dir'
+    stdir = 'storage_dir'
+
+    # Project file paths
+    unitRules = os.path.join(sdir, 'unitrules.xml')
+    updStats = os.path.join(wdir, 'unitrules.xml')
+    wbNin = os.path.join(wdir, 'unitStats.xlsx')
+    wbNout = os.path.join(wdir, 'unitStats_Alt.xlsx')
+
+    # unitrules.xml file path in game directory
+    load_dotenv()
+    gameRules = os.getenv('gameRules')
+
+    return {
+        'sdir': sdir,
+        'wdir': wdir,
+        'stdir': stdir,
+        'unitRules': unitRules,
+        'updStats': updStats,
+        'wbNin': wbNin,
+        'wbNout': wbNout,
+        'gameRules': gameRules
+    }
+
+
+def main():
+    # Get project paths dictionary
+    pathz = getPathz()
+
+    # Get unit specs as pd.DataFrame after parsing xml data
+    unitSpecs = unitData(pathz['unitRules'])
+
+
+if __name__ == '__main__':
+    main()
