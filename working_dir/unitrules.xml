@@ -15100,7 +15100,7 @@
     <MOVES>115</MOVES>
     <SUPPORT>20o/20k support</SUPPORT>
     <COST>10o/10k</COST>
-    <JOB_TIME>170</JOB_TIME>
+    <JOB_TIME>17000</JOB_TIME>
     <PREQ0>Modern Age</PREQ0>
     <PREQ1>Nation-in-Arms</PREQ1>
     <FROM>none</FROM>
@@ -15157,7 +15157,7 @@
     <MOVES>115</MOVES>
     <SUPPORT>20o/20k support</SUPPORT>
     <COST>10o/10k</COST>
-    <JOB_TIME>170</JOB_TIME>
+    <JOB_TIME>17000</JOB_TIME>
     <PREQ0>Information Age</PREQ0>
     <PREQ1>Selective Service</PREQ1>
     <FROM>V2 Rocket</FROM>
@@ -15214,7 +15214,7 @@
     <MOVES>115</MOVES>
     <SUPPORT>50o/50k support</SUPPORT>
     <COST>50k/60o</COST>
-    <JOB_TIME>600</JOB_TIME>
+    <JOB_TIME>60000</JOB_TIME>
     <PREQ0>Modern Age</PREQ0>
     <PREQ1>Nation-in-Arms</PREQ1>
     <FROM>none</FROM>
@@ -15271,7 +15271,7 @@
     <MOVES>115</MOVES>
     <SUPPORT>75o/75k support</SUPPORT>
     <COST>75k/90o</COST>
-    <JOB_TIME>600</JOB_TIME>
+    <JOB_TIME>60000</JOB_TIME>
     <PREQ0>Information Age</PREQ0>
     <PREQ1>Selective Service</PREQ1>
     <FROM>Nuclear Missile</FROM>
@@ -15328,7 +15328,7 @@
     <MOVES>38</MOVES>
     <SUPPORT>5t support</SUPPORT>
     <COST>4t</COST>
-    <JOB_TIME>9400</JOB_TIME>
+    <JOB_TIME>7050</JOB_TIME>
     <PREQ0>none</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>none</FROM>
@@ -15385,7 +15385,7 @@
     <MOVES>22</MOVES>
     <SUPPORT>1g/1t support</SUPPORT>
     <COST>3t/2g</COST>
-    <JOB_TIME>9400</JOB_TIME>
+    <JOB_TIME>7050</JOB_TIME>
     <PREQ0>Classical Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>none</FROM>
@@ -15442,7 +15442,7 @@
     <MOVES>22</MOVES>
     <SUPPORT>1g/1t support</SUPPORT>
     <COST>3g/3g</COST>
-    <JOB_TIME>9400</JOB_TIME>
+    <JOB_TIME>7050</JOB_TIME>
     <PREQ0>Industrial Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Merchant Fleet</FROM>
@@ -15499,7 +15499,7 @@
     <MOVES>25</MOVES>
     <SUPPORT>1g/1t support</SUPPORT>
     <COST>3t/3g</COST>
-    <JOB_TIME>9400</JOB_TIME>
+    <JOB_TIME>7050</JOB_TIME>
     <PREQ0>Classical Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>none</FROM>
@@ -15556,7 +15556,7 @@
     <MOVES>25</MOVES>
     <SUPPORT>1g/1t support</SUPPORT>
     <COST>3t/3f</COST>
-    <JOB_TIME>9400</JOB_TIME>
+    <JOB_TIME>7050</JOB_TIME>
     <PREQ0>Gunpowder Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Transport Barge</FROM>
@@ -15613,7 +15613,7 @@
     <MOVES>25</MOVES>
     <SUPPORT>1g/1t support</SUPPORT>
     <COST>3m/3o</COST>
-    <JOB_TIME>9400</JOB_TIME>
+    <JOB_TIME>7050</JOB_TIME>
     <PREQ0>Industrial Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Transport Galleon</FROM>
@@ -15670,7 +15670,7 @@
     <MOVES>47</MOVES>
     <SUPPORT>1f support</SUPPORT>
     <COST>3t/3f</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>none</PREQ0>
     <PREQ1>The Art of War</PREQ1>
     <FROM>none</FROM>
@@ -15727,7 +15727,7 @@
     <MOVES>50</MOVES>
     <SUPPORT>1f support</SUPPORT>
     <COST>3t/3f</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Classical Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Bark</FROM>
@@ -15784,7 +15784,7 @@
     <MOVES>53</MOVES>
     <SUPPORT>1f support</SUPPORT>
     <COST>3t/3f</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Medieval Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Dromon</FROM>
@@ -15841,7 +15841,7 @@
     <MOVES>54</MOVES>
     <SUPPORT>1f support</SUPPORT>
     <COST>3t/3f</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Gunpowder Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Caravel</FROM>
@@ -15898,7 +15898,7 @@
     <MOVES>57</MOVES>
     <SUPPORT>1f support</SUPPORT>
     <COST>3t/3f</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Enlightenment Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Corvette</FROM>
@@ -15955,7 +15955,7 @@
     <MOVES>63</MOVES>
     <SUPPORT>2o support</SUPPORT>
     <COST>7m/7o</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Industrial Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Sloop</FROM>
@@ -16012,7 +16012,7 @@
     <MOVES>67</MOVES>
     <SUPPORT>2o support</SUPPORT>
     <COST>7m/7o</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Modern Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Destroyer</FROM>
@@ -16069,7 +16069,7 @@
     <MOVES>69</MOVES>
     <SUPPORT>2o support</SUPPORT>
     <COST>7m/7o</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Information Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Cruiser</FROM>
@@ -16126,7 +16126,7 @@
     <MOVES>54</MOVES>
     <SUPPORT>1f support</SUPPORT>
     <COST>3t/3f</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Medieval Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Dromon</FROM>
@@ -16183,7 +16183,7 @@
     <MOVES>55</MOVES>
     <SUPPORT>1f support</SUPPORT>
     <COST>3t/3f</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Gunpowder Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Brig</FROM>
@@ -16240,7 +16240,7 @@
     <MOVES>58</MOVES>
     <SUPPORT>1f support</SUPPORT>
     <COST>3t/3f</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Enlightenment Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Fluyt</FROM>
@@ -16297,7 +16297,7 @@
     <MOVES>38</MOVES>
     <SUPPORT>1g support</SUPPORT>
     <COST>2t/4g</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Classical Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>none</FROM>
@@ -16354,7 +16354,7 @@
     <MOVES>40</MOVES>
     <SUPPORT>1g support</SUPPORT>
     <COST>2t/4g</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Medieval Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Fire Raft</FROM>
@@ -16411,7 +16411,7 @@
     <MOVES>42</MOVES>
     <SUPPORT>1g support</SUPPORT>
     <COST>3t/6g</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Gunpowder Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Heavy Fire Raft</FROM>
@@ -16468,7 +16468,7 @@
     <MOVES>44</MOVES>
     <SUPPORT>1g support</SUPPORT>
     <COST>3t/6g</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Enlightenment Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Fireship</FROM>
@@ -16525,7 +16525,7 @@
     <MOVES>46</MOVES>
     <SUPPORT>2o support</SUPPORT>
     <COST>6o/8g</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Industrial Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Heavy Fireship</FROM>
@@ -16582,7 +16582,7 @@
     <MOVES>50</MOVES>
     <SUPPORT>2o support</SUPPORT>
     <COST>6o/8g</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Information Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Submarine</FROM>
@@ -16639,7 +16639,7 @@
     <MOVES>35</MOVES>
     <SUPPORT>2m support</SUPPORT>
     <COST>4t/4m</COST>
-    <JOB_TIME>22500</JOB_TIME>
+    <JOB_TIME>16875</JOB_TIME>
     <PREQ0>none</PREQ0>
     <PREQ1>The Art of War</PREQ1>
     <FROM>none</FROM>
@@ -16696,7 +16696,7 @@
     <MOVES>37</MOVES>
     <SUPPORT>2m support</SUPPORT>
     <COST>4t/4m</COST>
-    <JOB_TIME>22500</JOB_TIME>
+    <JOB_TIME>16875</JOB_TIME>
     <PREQ0>Classical Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Trireme</FROM>
@@ -16753,7 +16753,7 @@
     <MOVES>39</MOVES>
     <SUPPORT>2m support</SUPPORT>
     <COST>4t/4m</COST>
-    <JOB_TIME>22500</JOB_TIME>
+    <JOB_TIME>16875</JOB_TIME>
     <PREQ0>Medieval Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Galley</FROM>
@@ -16810,7 +16810,7 @@
     <MOVES>41</MOVES>
     <SUPPORT>2m support</SUPPORT>
     <COST>6t/6m</COST>
-    <JOB_TIME>22500</JOB_TIME>
+    <JOB_TIME>16875</JOB_TIME>
     <PREQ0>Gunpowder Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Carrack</FROM>
@@ -16867,7 +16867,7 @@
     <MOVES>43</MOVES>
     <SUPPORT>2m support</SUPPORT>
     <COST>6t/6m</COST>
-    <JOB_TIME>22500</JOB_TIME>
+    <JOB_TIME>16875</JOB_TIME>
     <PREQ0>Enlightenment Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Frigate</FROM>
@@ -16924,7 +16924,7 @@
     <MOVES>29</MOVES>
     <SUPPORT>2m support</SUPPORT>
     <COST>8t/8m</COST>
-    <JOB_TIME>30000</JOB_TIME>
+    <JOB_TIME>22500</JOB_TIME>
     <PREQ0>Gunpowder Age</PREQ0>
     <PREQ1>Standing Army</PREQ1>
     <FROM>none</FROM>
@@ -16981,7 +16981,7 @@
     <MOVES>29</MOVES>
     <SUPPORT>2m support</SUPPORT>
     <COST>8t/8m</COST>
-    <JOB_TIME>30000</JOB_TIME>
+    <JOB_TIME>22500</JOB_TIME>
     <PREQ0>Gunpowder Age</PREQ0>
     <PREQ1>Standing Army</PREQ1>
     <FROM>none</FROM>
@@ -17038,7 +17038,7 @@
     <MOVES>32</MOVES>
     <SUPPORT>2m support</SUPPORT>
     <COST>8t/8m</COST>
-    <JOB_TIME>30000</JOB_TIME>
+    <JOB_TIME>22500</JOB_TIME>
     <PREQ0>Enlightenment Age</PREQ0>
     <PREQ1>Conscription</PREQ1>
     <FROM>Bomb Vessel</FROM>
@@ -17095,7 +17095,7 @@
     <MOVES>44</MOVES>
     <SUPPORT>5m/2o support</SUPPORT>
     <COST>14m/9o</COST>
-    <JOB_TIME>30000</JOB_TIME>
+    <JOB_TIME>22500</JOB_TIME>
     <PREQ0>Industrial Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Man o' War</FROM>
@@ -17152,7 +17152,7 @@
     <MOVES>47</MOVES>
     <SUPPORT>5m/2o support</SUPPORT>
     <COST>14m/9o</COST>
-    <JOB_TIME>30000</JOB_TIME>
+    <JOB_TIME>22500</JOB_TIME>
     <PREQ0>Modern Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Dreadnought</FROM>
@@ -17209,7 +17209,7 @@
     <MOVES>49</MOVES>
     <SUPPORT>5m/2o support</SUPPORT>
     <COST>14m/9o</COST>
-    <JOB_TIME>30000</JOB_TIME>
+    <JOB_TIME>22500</JOB_TIME>
     <PREQ0>Information Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Battleship</FROM>
@@ -17266,7 +17266,7 @@
     <MOVES>42</MOVES>
     <SUPPORT>100g/100o support</SUPPORT>
     <COST>65g/65o</COST>
-    <JOB_TIME>25000</JOB_TIME>
+    <JOB_TIME>18750</JOB_TIME>
     <PREQ0>Modern Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>none</FROM>
@@ -18748,7 +18748,7 @@
     <MOVES>43</MOVES>
     <SUPPORT>2m support</SUPPORT>
     <COST>7t/7m</COST>
-    <JOB_TIME>22500</JOB_TIME>
+    <JOB_TIME>16875</JOB_TIME>
     <PREQ0>Enlightenment Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Frigate</FROM>
@@ -19432,7 +19432,7 @@
     <MOVES>67</MOVES>
     <SUPPORT>2o support</SUPPORT>
     <COST>5t/3o</COST>
-    <JOB_TIME>12000</JOB_TIME>
+    <JOB_TIME>9000</JOB_TIME>
     <PREQ0>Modern Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Destroyer</FROM>
@@ -19831,7 +19831,7 @@
     <MOVES>41</MOVES>
     <SUPPORT>2m support</SUPPORT>
     <COST>8t/6m</COST>
-    <JOB_TIME>22500</JOB_TIME>
+    <JOB_TIME>16875</JOB_TIME>
     <PREQ0>Gunpowder Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Carrack</FROM>
@@ -19888,7 +19888,7 @@
     <MOVES>46</MOVES>
     <SUPPORT>1f support</SUPPORT>
     <COST>3t/3f</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Gunpowder Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Corvette</FROM>
@@ -19945,7 +19945,7 @@
     <MOVES>50</MOVES>
     <SUPPORT>2o support</SUPPORT>
     <COST>6o/8g</COST>
-    <JOB_TIME>15000</JOB_TIME>
+    <JOB_TIME>11250</JOB_TIME>
     <PREQ0>Information Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Submarine</FROM>
@@ -20002,7 +20002,7 @@
     <MOVES>32</MOVES>
     <SUPPORT>2m support</SUPPORT>
     <COST>8t/8m</COST>
-    <JOB_TIME>30000</JOB_TIME>
+    <JOB_TIME>22500</JOB_TIME>
     <PREQ0>Classical Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>none</FROM>
@@ -20686,7 +20686,7 @@
     <MOVES>25</MOVES>
     <SUPPORT>support</SUPPORT>
     <COST>3f</COST>
-    <JOB_TIME>18800</JOB_TIME>
+    <JOB_TIME>14100</JOB_TIME>
     <PREQ0>none</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>none</FROM>
@@ -20743,7 +20743,7 @@
     <MOVES>25</MOVES>
     <SUPPORT>support</SUPPORT>
     <COST>3f</COST>
-    <JOB_TIME>18800</JOB_TIME>
+    <JOB_TIME>14100</JOB_TIME>
     <PREQ0>none</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>none</FROM>
