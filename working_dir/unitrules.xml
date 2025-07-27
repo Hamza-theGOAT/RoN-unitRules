@@ -15099,8 +15099,8 @@
     <HITS>2</HITS>
     <MOVES>115</MOVES>
     <SUPPORT>20o/20k support</SUPPORT>
-    <COST>10o/10k</COST>
-    <JOB_TIME>17000</JOB_TIME>
+    <COST>10000o/10000k</COST>
+    <JOB_TIME>85000</JOB_TIME>
     <PREQ0>Modern Age</PREQ0>
     <PREQ1>Nation-in-Arms</PREQ1>
     <FROM>none</FROM>
@@ -15156,8 +15156,8 @@
     <HITS>2</HITS>
     <MOVES>115</MOVES>
     <SUPPORT>20o/20k support</SUPPORT>
-    <COST>10o/10k</COST>
-    <JOB_TIME>17000</JOB_TIME>
+    <COST>10000o/10000k</COST>
+    <JOB_TIME>85000</JOB_TIME>
     <PREQ0>Information Age</PREQ0>
     <PREQ1>Selective Service</PREQ1>
     <FROM>V2 Rocket</FROM>
@@ -15213,8 +15213,8 @@
     <HITS>2</HITS>
     <MOVES>115</MOVES>
     <SUPPORT>50o/50k support</SUPPORT>
-    <COST>50k/60o</COST>
-    <JOB_TIME>60000</JOB_TIME>
+    <COST>50000k/60000o</COST>
+    <JOB_TIME>300000</JOB_TIME>
     <PREQ0>Modern Age</PREQ0>
     <PREQ1>Nation-in-Arms</PREQ1>
     <FROM>none</FROM>
@@ -15270,8 +15270,8 @@
     <HITS>2</HITS>
     <MOVES>115</MOVES>
     <SUPPORT>75o/75k support</SUPPORT>
-    <COST>75k/90o</COST>
-    <JOB_TIME>60000</JOB_TIME>
+    <COST>75000k/90000o</COST>
+    <JOB_TIME>300000</JOB_TIME>
     <PREQ0>Information Age</PREQ0>
     <PREQ1>Selective Service</PREQ1>
     <FROM>Nuclear Missile</FROM>
